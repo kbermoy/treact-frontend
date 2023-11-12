@@ -4,6 +4,9 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
+    line-height: 1.5;
+    tab-size: 4;
+    border-color: rgb(226, 232, 240);
 }
 
 .text--purple {
@@ -11,6 +14,8 @@
 }
 
 body {
+    margin: 0px;
+    display: block;
     padding: 32px;
 }
 
@@ -21,17 +26,18 @@ ul {
 /*  NAVIGATION  */
 nav {
     height: 100%;
-    max-height: 80px;
+    max-height: 44px;
     display: flex;
 }
 
 .row {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1280px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-size-adjust: 100%;
 }
 
 .logo__wrapper {
@@ -97,29 +103,33 @@ nav {
 
 /*  HEADER  */
 header {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
+    height: 100%;
+    max-height: 100vh;
 }
 
 .header__container {
     display: flex;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 96px 0;
 }
 
 .header__right {
     display: flex;
     flex-direction: column;
-    max-width: 480px;
+    max-width: 40%;
     margin: 0 auto;
 }
 
 .header__title {
-  font-size: 36px;
+  font-size: 48px;
   font-weight: 700;
+  line-height: 1.25;
 }
 
 .header__para {
-    font-size: 16px;
+    font-size: 18px;
     color: #243e63;
     margin: 32px 0;
 }
@@ -130,9 +140,72 @@ header {
 }
 
 .header__img {
-    max-width: 478px;
+    max-width: 533.328px;
     max-height: 34px;
     opacity: 0.5;
+    padding-right: 128px;
+    margin-top: 16px;
+}
+
+.header__left {
+    width: 60%;
+}
+
+.header__left--img {
+    width: 100%;
+}
+
+.header__btn--wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 448px;
+}
+
+.btn--input {
+    width: 100%;
+    padding: 20px 192px 20px 32px;
+    border-radius: 9999px;
+    font-weight: 500;
+    font-size: 16px;
+    border: 2px solid rgb(226, 232, 240);
+}
+
+.btn--input:focus {
+    border: 2px solid rgb(226, 232, 240);
+}
+
+.btn {
+    padding: 16px 0;
+    margin: 8px 8px 8px 0px;
+    width: 100%;
+    max-width: 160px;
+    border-radius: 9999px;
+    border: none;
+    background-color: #6415FF;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+}
+
+.header__logos {
+    margin: 80px 0 0;
+}
+
+.header__logos--para {
+    font-weight: 700;
+    font-size: 12px;
+    color: #A0AEC0;
 }
 
 #landing {
