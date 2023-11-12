@@ -211,3 +211,80 @@ header {
 #landing {
     height: calc(100vh - 80px + 16px); /*TODO: does not cover entire height of page*/
 }
+
+/*  FEATURES SECTION  */
+.features__container {
+    height: 100%;
+    max-height: 838.5px;
+    display: flex;
+}
+
+.features__row {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+}
+
+.features__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.features--title {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+.title {
+    font-size: 48px;
+    color: #243e63;
+    font-weight: 900;
+    letter-spacing: 0.025em;
+}
+
+.para {
+    font-size: 18px;
+    color: #7C8BA1;
+    margin: 16px 0 0;
+    width: 100%;
+    max-width: 36rem;
+}
+
+.feature {
+    display: flex;
+}
+
+.feature__img--wrapper {
+    padding: 20px;
+    border: 2px solid rgb(226, 232, 240);
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature__img {
+    width: 100%;
+    max-width: 24px;
+}
+
+.feature__title {
+    font-size: 24px;
+    color: #243e63;
+    margin: 16px 0 0;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    line-height: 24px;
+}
+
+.feature__para {
+    color: #7C8BA1;
+    margin: 16px 0 0;
+    font-weight: 500;
+
+}
