@@ -115,7 +115,7 @@ header {
     padding: 96px 0;
 }
 
-.two__column--right {
+.two__column--left {
     display: flex;
     flex-direction: column;
     max-width: 40%;
@@ -146,11 +146,11 @@ header {
     margin-top: 16px;
 }
 
-.two__column--left {
+.two__column--right {
     width: 60%;
 }
 
-.header__left--img {
+.header__right--img {
     width: 100%;
 }
 
@@ -617,6 +617,10 @@ header {
 
 .column__btn {
     margin-top: 32px;
+}
+
+.left__column--img--wrapper {
+    text-align: right;
 }
 
 .left__column--img {
