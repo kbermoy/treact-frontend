@@ -681,3 +681,70 @@ header {
     margin-top: 12px;
     color: #718096;
 }
+
+/*   VALUES SECTION */
+.values__icon--wrapper {
+    padding: 8px;
+    width: 100%;
+    max-width: 36px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+}
+
+.values--icon--green {
+    background-color: rgb(154, 230, 180);
+    color: rgb(39, 103, 73);
+}
+
+.values--icon--red {
+    background-color: rgb(254, 178, 178);
+    color: rgb(155, 44, 44);
+}
+
+.two__column--mini {
+    display: flex;
+}
+
+.left--mini {
+    margin: 32px 32px 0 0;
+}
+
+.right__mini {
+    margin-top: 32px;
+}
+
+.two__column--header {
+    display: flex;
+}
+
+.column__header--title {
+    margin-left: 12px;
+}
+
+.values__btn {
+    margin-top: 48px;
+}
+
+/*  PRICING SECTION  */
+.name {
+    color: #1A202C;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.price {
+    color: #1A202C;
+    font-size: 48px;
+    margin: 4px 0;
+    font-weight: 700;
+}
+
+.duration {
+    color: #A0AEC0;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1.6px;
+}
