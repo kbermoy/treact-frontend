@@ -13,7 +13,7 @@
     color: #6415FF;
 }
 
-body {
+#sections {
     margin: 0px;
     display: block;
     padding: 32px;
@@ -21,6 +21,10 @@ body {
 
 ul {
     list-style-type: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 /*  NAVIGATION  */
@@ -69,7 +73,6 @@ nav {
     font-weight: 600;
     color: #243e63;
     padding-bottom: 4px;
-    text-decoration: none;
     border-bottom: 2px solid transparent;
 }
 
@@ -216,7 +219,7 @@ header {
 
 .features__row {
     width: 100%;
-    max-width: 1024px;
+    max-width: 1280px;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -511,11 +514,7 @@ header {
     padding: 96px 0;
 }
 
-.features__row {
-    width: 100%;
-    max-width: 1024px;
-    margin: 0 auto;
-}
+
 
 .features__description {
     display: flex;
@@ -933,4 +932,92 @@ header {
     font-size: 20px;
     color: #2d3748;
     font-weight: 600;
+}
+
+.faqsAnswer {
+    max-height: 0;
+    overflow: hidden;
+}
+
+.faqs__singleColumn.active .faqsAnswer {
+    max-height: 300px;
+}
+
+/*  GET STARTED SECTION  */
+.getStarted--background {
+    background-color: rgb(100, 21, 255);
+    padding: 80px 0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.getStarted--header {
+    font-size: 30px;
+    color: #f7fafc;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+    max-width: 512px;
+    line-height: 45px;
+}
+
+.getStartedButtons {
+    margin-top: 24px;
+    display: flex;
+}
+
+.getStarted--button {
+    margin-right: 32px;
+    font-size: 16px;
+    color: #f7fafc;
+    padding: 16px 32px;
+    font-weight: 700;
+    background-color: rgb(245 101 101);
+    border: none;
+    border-radius: 9999px;
+}
+
+.getStarted--buttonWhite {
+    border: 1px solid rgb(160, 174, 192);
+    background-color: transparent;
+}
+
+/*  FOOTER SECTION  */
+.footerContainer {
+    height: 100%;
+    max-height: 522px;
+    background-color: rgb(100, 21, 255);
+}
+
+.footerTop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerTop--singleColumn {
+    margin-top: 48px;
+}
+
+.footerTop--singleColumn--header {
+    font-size: 16px;
+    color: #f7fafc;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.footerTop--singleColumn--lists {
+    margin-top: 24px;
+}
+
+.footerTop--singleColumn--list {
+    margin-top: 12px;
+}
+
+.footerTop--singleCOlumn--link {
+    font-size: 14px;
+    color: #f7fafc;
+    padding: 0 0 4px;
+    font-weight: 500;
 }
