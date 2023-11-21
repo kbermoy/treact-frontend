@@ -738,6 +738,7 @@ header {
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
+    padding: 96px 0;
 }
 
 .three__column--container {
@@ -841,4 +842,71 @@ header {
 
 .middle--text {
     color: white;
+}
+
+/*  TESTIMONIALS SECTIONS */
+.customerRating--para {
+    font-size: 16px;
+    margin: 16px 0 40px;
+    color: #4a5568;
+    font-weight: 500;
+}
+
+.customerInfoAndRating {
+    padding-top: 40px;
+}
+
+.ratings {
+    color: rgb(246, 173, 85);
+}
+
+.customerRating--heading {
+    margin-top: 16px;
+    margin-left: 0;
+}
+
+.customerTitle {
+    margin: 0;
+}
+
+.two__columnWithImageAndCustomerInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imageAndCustomerInfo {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.customerInfo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;;
+}
+
+.customerImage--wrapper {
+    max-width: 100%;
+    width: 80px;
+    height: auto;
+}
+
+.customer--img {
+    width: 100%;
+    border-radius: 9999px;
+}
+
+.twoColumnWithTwoButtons {
+    display: flex;
+}
+
+.twoButtonColumn {
+    margin: 0 12px;
+    padding: 16px;
+    color: rgb(100 21 255);
+    background-color: rgb(237, 242, 247);
+    border: none;
+    border-radius: 9999px;
 }
