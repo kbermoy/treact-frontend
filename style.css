@@ -910,3 +910,27 @@ header {
     border: none;
     border-radius: 9999px;
 }
+
+/*  FAQS SECTION  */
+.faqs__bottom {
+    margin-top: 48px;
+}
+
+.faqs__singleColumn {
+    padding: 16px 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(237, 242, 247);
+    border-radius: 8px;
+}
+
+.faqsQuestion {
+    display: flex;
+    justify-content: space-between;
+}
+
+.faqsQuestionWords {
+    font-size: 20px;
+    color: #2d3748;
+    font-weight: 600;
+}
