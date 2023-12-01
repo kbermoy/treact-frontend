@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <section id="calculator">
+      <div class="container">
+        <div class="row">
+          <div class="calculator__screen">
+            <div class="answer">0</div>
+          </div>
+          <div class="calculator__buttons">
+            <div class="innerRow">
+              <button class="btn purple-haze" onclick="reset()"><div class="btn--text">AC</div></button>
+              <button class="btn purple-haze"><div class="btn--text">+/-</div></button>
+              <button class="btn purple-haze"><div class="btn--text">%</div></button>
+              <button class="btn navy"><div class="btn--text">/</div></button>
+              <button class="btn"><div class="btn--text">7</div></button>
+              <button class="btn"><div class="btn--text">8</div></button>
+              <button class="btn"><div class="btn--text">9</div></button>
+              <button class="btn navy"><div class="btn--text">*</div></button>
+              <button class="btn"><div class="btn--text">4</div></button>
+              <button class="btn"><div class="btn--text">5</div></button>
+              <button class="btn"><div class="btn--text">6</div></button>
+              <button class="btn navy"><div class="btn--text">-</div></button>
+              <button class="btn"><div class="btn--text">1</div></button>
+              <button class="btn"><div class="btn--text">2</div></button>
+              <button class="btn"><div class="btn--text">3</div></button>
+              <button class="btn navy"><div class="btn--text">+</div></button>
+              <button class="btn--equal"><div class="btn--text btn--equalText">0</div></button>
+              <button class="btn"><div class="btn--text">.</div></button>
+              <button class="btn navy" onclick="getAnswer()"><div class="btn--text">=</div></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
